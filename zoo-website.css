@@ -7,6 +7,13 @@
 
 /*croping and resizing raptor image*/
 
+.header {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
 .header img {
     display: block;
     margin: auto;
@@ -15,22 +22,17 @@
     width: 100vw;
 }
 
-.header {
-    width: 100vw;
-    overflow: hidden;
-}
-
 .header-zoo {
     width: 100vw;
     overflow: hidden;
 }
 
-h2 {
+.header h2 {
     font-family: "Helvetica", sans-serif;
     font-size: 2em;
     text-align: right;
    position: absolute;
-   top: 500px;
+   bottom: 10px;
    left: 0;
    width: 100%;
 }
@@ -49,7 +51,6 @@ h2 {
   width: 95%vw;
   height: 200px;
   list-style-type: none;
-  background-image: url('http://gvzoo.com/rw_common/plugins/stacks/armadillo/media/Unknown_2.jpeg');
 }
 
 .main-nav a {
@@ -72,6 +73,18 @@ h2 {
   list-style-type: none;
 }
 
+body {
+      font-family: "HelveticaNeue-Normal", "Helvetica Neue", Helvetica, Verdana, sans-serif;
+      margin-left: auto;
+}
+
+p {
+  font-size: 15px;
+
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
 /*MAP*/
 .google-map {
   width: 100%;
