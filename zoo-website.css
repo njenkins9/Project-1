@@ -1,0 +1,31 @@
+.logo img {
+    display: block;
+    margin: auto;
+    width: 20vw;
+    max-width: 150px;
+}
+
+/*croping and resizing raptor image*/
+
+.header img {
+    display: block;
+    margin: auto;
+    margin-top: -15vw;
+    margin-bottom: -5vw;
+    width: 100vw;
+}
+
+.header {
+    width: 100vw;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 2em;
+    text-align: right;
+   position: absolute;
+   top: 500px;
+   left: 0;
+   width: 100%;
+}
