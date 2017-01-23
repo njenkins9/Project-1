@@ -37,15 +37,15 @@ h2 {
   border-bottom-style: solid;
   border-bottom-color: black;
   position: relative;
-  width: 600px;
-  height: 250px;
+  width: 95%vw;
+  height: 200px;
   background: grey;
 }
 
 .main-nav a {
   background-color: orange;
   display: block;
-  width: 400px;
+  width: 95%vw;
   height: 8px;
   padding-top: 15px;
   padding-right: 10px;
