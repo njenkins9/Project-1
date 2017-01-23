@@ -46,7 +46,7 @@ h2 {
   background-color: orange;
   display: block;
   width: 95%vw;
-  height: 8px;
+  height: 15%vh;
   padding-top: 15px;
   padding-right: 10px;
   padding-bottom: 15px;
@@ -54,4 +54,9 @@ h2 {
   color: white;
   text-decoration: none;
   font-family: Helvetica, sans-serif;
+}
+
+.main-menu a {
+  font-size: 2vh;
+  font-weight: bold;
 }
