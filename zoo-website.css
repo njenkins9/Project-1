@@ -71,9 +71,10 @@
 }
 
 .tile-img {
-  height: auto;
-  width: auto;
-  max-height: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: -5vw;
+  width: 75vw;
 }
 
 body {
