@@ -82,11 +82,16 @@ body {
 }
 
 p {
-  font-size: 15px;
-
-  margin-left:auto;
-  margin-right:auto;
+  font-size: auto;
+  margin-left:20px;
+  margin-right:20px;
   text-align:left;
+}
+
+h3 {
+  margin-left: 20px;
+  padding-top: 5px;
+  margin-right: 5vw;
 }
 
 h5 {
@@ -95,6 +100,15 @@ h5 {
   margin-right: 5vw;
 }
 
+ul {
+  font-size: auto;
+  margin-left:20px;
+  margin-right:20px;
+  text-align:left;
+}
+table {
+  margin-left: 20px;
+}
 /*MAP*/
 .google-map {
   width: 100%;
