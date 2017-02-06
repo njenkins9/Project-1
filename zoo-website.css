@@ -48,8 +48,8 @@
   border-bottom-style: solid;
   position: relative;
   width: 95vw;
-  min-height: 200px;
   list-style-type: none;
+
 }
 
 .main-nav a {
@@ -67,6 +67,7 @@
   font-size: 2vh;
   font-weight: bold;
   list-style-type: none;
+@media screen and (max-width:770px)
 }
 
 .tile-img {
