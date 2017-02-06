@@ -42,14 +42,13 @@
 
 .main-nav li {
   margin-top: 2vh;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+  margin-right: 0px;
   border-bottom-width: 0px;
   border-bottom-style: solid;
-  margin-right: 5vw;
-
   position: relative;
-  width: 95%vw;
-  height: 200px;
+  width: 95vw;
+  min-height: 200px;
   list-style-type: none;
 }
 
@@ -74,7 +73,10 @@
   display: block;
   margin: auto;
   margin-bottom: -5vw;
-  width: 75vw;
+  width: 95vw;
+  min-height: 100px;
+  max-height: 200px;
+
 }
 
 body {
@@ -98,13 +100,12 @@ h3 {
 h5 {
   padding-top: 5px;
   padding-left: 5px;
-  margin-right: 5vw;
 }
 
 ul {
   font-size: auto;
   margin-left:20px;
-  margin-right:20px;
+  margin-right:0px;
   text-align:left;
 }
 table {
